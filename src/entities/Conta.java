@@ -21,9 +21,6 @@ public class Conta {
 		return numeroConta;
 	}
 
-	public void setNumeroConta(int numeroConta) {
-		this.numeroConta = numeroConta;
-	}
 
 	public String getNomecliente() {
 		return nomecliente;
@@ -37,11 +34,6 @@ public class Conta {
 		return balanco;
 	}
 
-	public void setBalanco(double balanco) {
-		this.balanco = balanco;
-	}
-	
-	
 	
 
 }
