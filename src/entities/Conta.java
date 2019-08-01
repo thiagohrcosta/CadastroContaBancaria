@@ -34,6 +34,12 @@ public class Conta {
 		return balanco;
 	}
 
+	public void deposito(double montante) {
+		balanco += montante;
+		
+	}
 	
-
+	public void sacar(double montante) {
+		balanco -= montante + 5.0;
+	}
 }
