@@ -5,6 +5,14 @@ Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um
 Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor do depósito inicial. em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação.
 
 # Programas utilizados
-- Eclipse IDE; <br>
-- GitBash; <br>
-- Astah - criação do UML; <br>
+- Eclipse IDE: Desenvolvimento do código do programa; <br>
+- GitBash: Controle de versão no GitHub; <br>
+- Astah: Criação do UML para implementação do software desenvolvido; <br>
+
+# Execução do Código
+![Código Youtube](https://www.youtube.com/watch?v=FyuopDef1Co&feature=youtu.be)
+
+# Autor
+Thiago H.R. Costa
+Perfil Likedln: ![Perfil Likedln](https://www.linkedin.com/in/thiago-costa-3566a4176/)
+Problema Proposto pelo **Curso: Java Programação Orientada a Objetos** do Professor Nelio Alves 
