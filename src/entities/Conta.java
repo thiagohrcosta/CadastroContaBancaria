@@ -8,7 +8,7 @@ public class Conta {
 	
 	public Conta(int numeroConta, String nomeCliente) {
 		this.numeroConta = numeroConta;
-		this.nomeCliente = nomecliente;
+		this.nomeCliente = nomeCliente;
 	}
 
 	public Conta(int numeroConta, String nomeCliente, double depositoInicial) {
