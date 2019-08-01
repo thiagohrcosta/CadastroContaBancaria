@@ -10,9 +10,9 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 - Astah: Criação do UML para implementação do software desenvolvido; <br>
 
 # Execução do Código
-![Código Youtube](https://www.youtube.com/watch?v=FyuopDef1Co&feature=youtu.be)
+https://www.youtube.com/watch?v=FyuopDef1Co&feature=youtu.be
 
 # Autor
 Thiago H.R. Costa
-Perfil Likedln: ![Perfil Likedln](https://www.linkedin.com/in/thiago-costa-3566a4176/)
+Perfil Likedln: https://www.linkedin.com/in/thiago-costa-3566a4176/
 Problema Proposto pelo **Curso: Java Programação Orientada a Objetos** do Professor Nelio Alves 
