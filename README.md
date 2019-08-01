@@ -3,3 +3,8 @@ Em um banco, para se cadastrar uma conta bancária, é necessário informar o n�
 Importante: uma vez que uma conta bancária foi aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome por ocasião de casamento, por exemplo).
 Por fim, o saldo da conta não pode ser alterado livremente. É preciso haver um meanismo para proteger isso. O saldo só aumenta por meio de depósitos, e só diminu por meio de saques. Para cada saque realizado, o banco cobra uma taxa de $ 5.00. Nota: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa.
 Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou não informado o valor do depósito inicial. em seguida, realizar um depósito e depois um saque, sempre mostrando os dados da conta após cada operação.
+
+# Programas utilizados
+- Eclipse IDE; <br>
+- GitBash; <br>
+- Astah - criação do UML; <br>
