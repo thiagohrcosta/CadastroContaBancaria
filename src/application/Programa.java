@@ -14,15 +14,15 @@ public class Programa {
 		
 		Conta conta;
 		
-		System.out.println("Insira o número da conta: ");
+		System.out.print("Insira o número da conta: ");
 		int numeroConta = sc.nextInt();
-		System.out.println("Insira o nme do titualr da conta: ");
+		System.out.print("Insira o nme do titualr da conta: ");
 		sc.nextLine();
 		String nomeCliente = sc.nextLine();
-		System.out.println("Existe algum depósito inicial (S/N ?) ");
+		System.out.print("Existe algum depósito inicial (S/N) ? ");
 		char resposta = sc.next().charAt(0);
 		if (resposta == 'S') {
-			System.out.println("Insira o valor inicial de depósito: ");
+			System.out.print("Insira o valor inicial de depósito: ");
 			double depositoInicial = sc.nextDouble();	
 			conta = new Conta(numeroConta, nomeCliente, depositoInicial);
 		}
@@ -34,7 +34,21 @@ public class Programa {
 		System.out.println("Informações da Conta: ");
 		System.out.println(conta);
 		
+		System.out.println();
+		System.out.println(" ################################################ ");
+		System.out.print("Entre um valor para depósito: ");
+		double montanteDepositado = sc.nextDouble();
+		conta.deposito(montanteDepositado);
+		System.out.println("Atualizando dados da conta:");
+		System.out.println(conta);
 		
+		System.out.println();
+		System.out.println(" ################################################ ");
+		System.out.print("Entre um valor para saque: ");
+		double montanteSacado = sc.nextDouble();
+		conta.sacar(montanteSacado);
+		System.out.println("Atualizando dados da conta:");
+		System.out.println(conta);
 		
 		
 		
