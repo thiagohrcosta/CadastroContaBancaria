@@ -11,10 +11,10 @@ public class Conta {
 		this.nomecliente = nomecliente;
 	}
 
-	public Conta(int numeroConta, String nomecliente, double balanco) {
+	public Conta(int numeroConta, String nomecliente, double depositoInicial) {
 		this.numeroConta = numeroConta;
 		this.nomecliente = nomecliente;
-		this.balanco = balanco;
+		deposito(depositoInicial);
 	}
 
 	public int getNumeroConta() {
