@@ -3,17 +3,17 @@ package entities;
 public class Conta {
 	
 	private int numeroConta;
-	private String nomecliente;
+	private String nomeCliente;
 	private double balanco;
 	
-	public Conta(int numeroConta, String nomecliente) {
+	public Conta(int numeroConta, String nomeCliente) {
 		this.numeroConta = numeroConta;
-		this.nomecliente = nomecliente;
+		this.nomeCliente = nomecliente;
 	}
 
-	public Conta(int numeroConta, String nomecliente, double depositoInicial) {
+	public Conta(int numeroConta, String nomeCliente, double depositoInicial) {
 		this.numeroConta = numeroConta;
-		this.nomecliente = nomecliente;
+		this.nomeCliente = nomeCliente;
 		deposito(depositoInicial);
 	}
 
@@ -22,12 +22,12 @@ public class Conta {
 	}
 
 
-	public String getNomecliente() {
-		return nomecliente;
+	public String getNomeCliente() {
+		return nomeCliente;
 	}
 
-	public void setNomecliente(String nomecliente) {
-		this.nomecliente = nomecliente;
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
 	}
 
 	public double getBalanco() {
@@ -41,5 +41,14 @@ public class Conta {
 	
 	public void sacar(double montante) {
 		balanco -= montante + 5.0;
+	}
+	
+	public String toString() {
+		return "Conta "
+				+ numeroConta
+				+ ", Cliente: "
+				+ nomeCliente
+				+", Balancço: $ "
+				+ String.format("%.2f", balanco);
 	}
 }
